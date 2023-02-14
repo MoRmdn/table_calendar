@@ -67,9 +67,9 @@ class TableCalendarBase extends StatefulWidget {
       swipeDetectionBehavior: SwipeDetectionBehavior.continuousDistinct,
     ),
     this.availableCalendarFormats = const {
-      CalendarFormat.month: 'Month',
-      CalendarFormat.twoWeeks: '2 weeks',
-      CalendarFormat.week: 'Week',
+      CalendarFormat.month: 'Mois',
+      CalendarFormat.twoWeeks: '2 semaines',
+      CalendarFormat.week: 'Semaine',
     },
     this.onVerticalSwipe,
     this.onPageChanged,
